@@ -13,6 +13,8 @@
     "force_color_prompt": "1"
   },
   "runArgs": [
+    "--network=host",
+    "--ipc=host",
     "--volume=/tmp/.X11-unix:/tmp/.X11-unix",
     "--volume=${localWorkspaceFolder}/.devcontainer/.Xauthority:/root/.Xauthority",
     "--volume=${localEnv:HOME}/.comma:/root/.comma",
